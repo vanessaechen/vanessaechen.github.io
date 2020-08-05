@@ -8,6 +8,34 @@
     src: url(didot_regular);
 }
 
+#header {
+    padding-top: 20px;
+}
+
+#logo {
+    text-align: center;
+    font-family: Avenir;
+    letter-spacing: 0.5em;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    font-family: Didot;
+    letter-spacing: 0.1em;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #d0d0d0 !important;
+}
+
 .content {
     position: relative;
     padding-top: 20px;
@@ -35,36 +63,5 @@
 
 .content-text-block h3 {
     font-family: Didot;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-    font-family: Didot;
-}
-
-.navigation a {
-    text-decoration: none;
-}
-
-#top-block {
-    padding-top: 20px;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-    position: relative;
-}
-
-#social {
-    padding-top: 20px;
-    position: absolute;
-    display: inline;
-}
-
-#logo {
-    text-align: center;
-    display: inline;
-    font-family: Avenir;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
 }
